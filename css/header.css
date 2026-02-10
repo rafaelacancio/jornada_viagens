@@ -35,5 +35,27 @@ nav {
 .list_links li a{
   color: var(--text-secondary-color);
   text-decoration: none;
-  font-family: "Montserrat";
+  font-weight: var(--menu-text-weight);
+  font-size: 24px;
+}
+@media screen and (max-width: 768px) {
+  .menu-navigation{
+    margin-top: 0;
+    width: 465px;
+  }
+  .menu-navigation label {
+    display: none; 
+  }
+  .menu-navigation nav{
+    display: block;
+  }
+  .menu-navigation ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+  .menu-navigation ul li{
+    margin: 0;
+  } 
 }
