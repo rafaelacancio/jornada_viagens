@@ -9,12 +9,16 @@
 <body>
     <header>
         <a class="logo" href="index.html">
-            <img src="img/logo_jornada_branca.png" alt="Logo em formato de bussola de jornada viagens">
+            <img class="img_mobile" src="img/logo_jornada_branca.png" alt="Logo em formato de bussola de jornada viagens">
+            <img class="img_desktop" src="img/Logo-jornada-branca.png" alt="Logo em formato de bussola de jornada viagens">
         </a>
-        <div>
-            <img class="menu-navigation" src="img/menu.png" alt="menu">
+        <div class="menu-navigation">
+            <label for="menu">
+                <img src="img/menu.png" alt="menu">
+            </label>
+            <input type="checkbox" id="menu" hidden> 
             <nav>
-                <ul>
+                <ul class="list_links">
                     <li><a href="" title="Acessar Blog" target="_blank">Blog</a></li>
                     <li><a href="" title="Acessar Pacotes de viagens" target="_blank">Pacotes de viagem</a></li>
                     <li><a href="" title="Acessar contacto" target="_blank">Contacto</a></li>
