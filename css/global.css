@@ -40,5 +40,30 @@ body {
 @media screen and (max-width: 768px) {
   body {
     font-size: 14px;
+    color: var(--text-primary-color);
+  }
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0px;
+  text-align: center;
+}
+.section-title hr{
+  width: 180px;
+  height: 4px;
+  border: none;
+  background-color: var(--button-secondary-color);
+  margin: 16px auto 32px;
+}
+@media screen and (min-width: 768px) {
+ .section-title h2 {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 1024px) {
+ .section-title h2 {
+    font-size: 32px;
   }
 }
