@@ -1,5 +1,5 @@
 .card {
-  color: var(--background-secondary-color);
+  color: var(--text-secondary-color);
   box-sizing: border-box;
   background-color: black;
   width: 312px;
@@ -12,19 +12,22 @@
   display: block;
   background-color: transparent;
   position: static;
+  padding: 0;
+  margin-bottom: 24px;
 }
 .card header p {
   font-size: 20px;
   font-weight: var(--text-weight);
   margin: 0px;
+  padding: 0;
 }
 .card header h3 {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: var(--title-weight);
-  margin-top: 8px 0 0;
+  margin: 8px 0 0;
 }
 .card header span {
   font-size: 32px;
   margin-top: 24px;
-  display: inline-block;
+  display: block;
 }
