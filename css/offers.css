@@ -1,76 +1,78 @@
-.offers-cards{
+.offers {
+  margin-bottom: 104px;
+}
+.offers-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
 }
-.card {
+.offers-cards .card {
   color: var(--text-secondary-color);
   box-sizing: border-box;
-  background-color: black;
   width: 312px;
-  height: 288px;
+  height: 280px;
   padding: 24px 16px;
   border-radius: 16px;
   text-align: center;
 }
-.card header {
+.offers-cards .card header {
   display: block;
   background-color: transparent;
   position: static;
   padding: 0;
   margin-bottom: 24px;
 }
-.card header p {
+.offers-cards .card p {
   font-size: 20px;
   font-weight: var(--text-weight);
   margin: 0px;
   padding: 0;
 }
-.card header h3 {
+.offers-cards .card h3 {
   font-size: 32px;
   font-weight: var(--title-weight);
   margin: 8px 0 0;
 }
-.card header span {
+.offers-cards .card span {
   font-size: 32px;
   margin-top: 24px;
   display: block;
 }
-.card.japao{
+.offers-cards .card.japao {
   background-image: url(../img/bg_card_japao.jpg);
 }
-.card.sans-andreas{
+.offers-cards .card.sans-andreas {
   background-image: url(../img/bg_card_sansandreas_.jpg);
 }
-.card.paraiba{
+.offers-cards .card.paraiba {
   background-image: url(../img/bg_card_paraiba.jpg);
 }
-.card.manaus{
+.offers-cards .card.manaus {
   background-image: url(../img/bg_card_manaus.jpg);
 }
-@media screen and (min-width: 768px){
-  .offers-cards{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+@media screen and (min-width: 768px) {
+  .offers-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 @media screen and (min-width: 1024px) {
-  .card {
+  .offers-cards .card {
     width: 420px;
     height: 308px;
   }
-  .card header h3 {
+  .offers-cards .card header h3 {
     font-size: 48px;
   }
-  .card header span {
+  .offers-cards .card header span {
     font-size: 40px;
   }
 }
 @media screen and (min-width: 1440px) {
-  .card {
+  .offers-cards .card {
     width: 588px;
   }
 }
