@@ -1,80 +1,159 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Jornada Viagens</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <a class="logo" href="index.html">
-            <img class="img_mobile" src="img/logo_jornada_branca.png" alt="Logo em formato de bussola de jornada viagens">
-            <img class="img_desktop" src="img/Logo-jornada-branca.png" alt="Logo em formato de bussola de jornada viagens">
-        </a>
-        <div class="menu-navigation">
-            <label for="menu">
-                <img src="img/menu.png" alt="menu">
-            </label>
-            <input type="checkbox" id="menu" hidden> 
-            <nav>
-                <ul class="list_links">
-                    <li><a href="" title="Acessar Blog" target="_blank">Blog</a></li>
-                    <li><a href="" title="Acessar Pacotes de viagens" target="_blank">Pacotes de viagem</a></li>
-                    <li><a href="" title="Acessar contacto" target="_blank">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
+      <a class="logo" href="index.html">
+        <img
+          class="img_mobile"
+          src="img/logo_jornada_branca.png"
+          alt="Logo em formato de bussola de jornada viagens"
+        />
+        <img
+          class="img_desktop"
+          src="img/Logo-jornada-branca.png"
+          alt="Logo em formato de bussola de jornada viagens"
+        />
+      </a>
+      <div class="menu-navigation">
+        <label for="menu">
+          <img src="img/menu.png" alt="menu" />
+        </label>
+        <input type="checkbox" id="menu" hidden />
+        <nav>
+          <ul class="list_links">
+            <li><a href="" title="Acessar Blog" target="_blank">Blog</a></li>
+            <li>
+              <a href="" title="Acessar Pacotes de viagens" target="_blank"
+                >Pacotes de viagem</a
+              >
+            </li>
+            <li>
+              <a href="" title="Acessar contacto" target="_blank">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <section class="hero">
-        <div class="hero-img"></div>
-        <h2>
-            Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino à seleção das atividades, cuidamos de todos os detalhes para que você aproveite ao máximo cada momento da sua jornada!
-        </h2>
+      <div class="hero-img"></div>
+      <h2>
+        Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino
+        à seleção das atividades, cuidamos de todos os detalhes para que você
+        aproveite ao máximo cada momento da sua jornada!
+      </h2>
     </section>
     <section class="offers">
-        <div class="section-title">
-            <h2>Ofertas da Semana</h2>
-            <hr>
-        </div>
-        <div class="offers-cards">
-            <article class="card japao">
-                <header>
-                    <p>HOTEL+AÉREO</p>
-                    <h3>Japão <span>R$ 4000</span>
-                </header>
-                <footer>
-                    <a href="#" class="button">Ver detalhes</a>
-                </footer>
-            </article>
-             <article class="card sans-andreas">
-                <header>
-                    <p>HOTEL+AÉREO</p>
-                    <h3>San Andreas <span>R$ 3000</span>
-                </header>
-                <footer>
-                    <a href="#" class="button">Ver detalhes</a>
-                </footer>
-            </article>
-            <article class="card paraiba">
-                <header>
-                    <p>HOTEL+AÉREO</p>
-                    <h3>Paraíba <span>R$ 1200</span>
-                </header>
-                <footer>
-                    <a href="#" class="button">Ver detalhes</a>
-                </footer>
-            </article>
-            <article class="card manaus">
-                <header>
-                    <p>HOTEL+AÉREO</p>
-                    <h3>Manaus <span>R$ 1600</span>
-                </header>
-                <footer>
-                    <a href="#" class="button">Ver detalhes</a>
-                </footer>
-            </article>       
-        </div>
+      <div class="section-title">
+        <h2>Ofertas da Semana</h2>
+        <hr />
+      </div>
+      <div class="offers-cards">
+        <article class="card japao">
+          <header>
+            <p>HOTEL+AÉREO</p>
+            <h3>Japão <span>R$ 4000</span></h3>
+          </header>
+          <footer>
+            <a href="#" class="button">Ver detalhes</a>
+          </footer>
+        </article>
+        <article class="card sans-andreas">
+          <header>
+            <p>HOTEL+AÉREO</p>
+            <h3>San Andreas <span>R$ 3000</span></h3>
+          </header>
+          <footer>
+            <a href="#" class="button">Ver detalhes</a>
+          </footer>
+        </article>
+        <article class="card paraiba">
+          <header>
+            <p>HOTEL+AÉREO</p>
+            <h3>Paraíba <span>R$ 1200</span></h3>
+          </header>
+          <footer>
+            <a href="#" class="button">Ver detalhes</a>
+          </footer>
+        </article>
+        <article class="card manaus">
+          <header>
+            <p>HOTEL+AÉREO</p>
+            <h3>Manaus <span>R$ 1600</span></h3>
+          </header>
+          <footer>
+            <a href="#" class="button">Ver detalhes</a>
+          </footer>
+        </article>
+      </div>
     </section>
-</body>
+    <section class="category">
+      <div class="section-title">
+        <h2>Busque por Categoria</h2>
+        <hr />
+      </div>
+      <div class="categories-cards">
+        <a
+          class="card"
+          href="#"
+          target="_blank"
+          title="Busque pela categoria Pacotes Nacionais"
+        >
+          <img
+            src="img/ícone - pacotes nacionais.png"
+            alt="ícone cinza representando uma pessoa fazendo trancking"
+          />
+          <h3>Pacotes Nacionais</h3>
+        </a>
+        <a
+          class="card"
+          href="#"
+          target="_blank"
+          title="Busque pela categoria Pacotes Nacionais"
+        >
+          <img
+            src="img/ícone - pacotes interacionais.png"
+            title="ícone  representando uma pessoa fazendo trancking"
+          />
+          <h3>Pacotes Internacionais</h3>
+        </a>
+        <a
+          class="card"
+          href="#"
+          target="_blank"
+          title="Busque pela categoria Pacotes Internacionais"
+        >
+          <img
+            src="img/ícone - pacotes interacionais.png"
+            title="Ícone cinza representando um avião"
+          />
+          <h3>Pacotes Internacionais</h3>
+        </a>
+        <a class="card" href="#" target="_blank" title="Busque por um transfer">
+          <img
+            src="img/ícone -transfer.png"
+            title="Ícone cinza representando um Ônibus"
+          />
+          <h3>Transfer</h3>
+        </a>
+        <a
+          class="card"
+          href="#"
+          target="_blank"
+          title="Busque por um seguro viagem"
+        >
+          <img
+            src="img/ícone - seguro viagem.png"
+            title="cinza representando o mundo com um cadeado de canto "
+          />
+          <h3>Seguro Viagem</h3>
+        </a>
+      </div>
+    </section>
+  </body>
 </html>

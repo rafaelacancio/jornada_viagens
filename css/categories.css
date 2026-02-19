@@ -1,0 +1,80 @@
+.categorias{
+    margin-top: 150px;
+}
+.categorias-cards{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.card {
+  color: var(--text-secondary-color);
+  box-sizing: border-box;
+  background-color: var(--background-secondary-color);
+  width: 312px;
+    height: 220px;
+  padding: 24px 16px;
+  text-align: center;
+}
+.card header {
+  display: block;
+  background-color: transparent;
+  position: static;
+  padding: 0;
+  margin-bottom: 24px;
+}
+.card header h3 {
+  font-size: 32px;
+  font-weight: var(--title-weight);
+  margin: 8px 0 0;
+}
+.card.nacionais{
+  background-color: var(--background-secondary-color);
+  color: var(--background-tertiary-color);
+}
+.card.internacionais{
+  background-color: var(--background-secondary-color);
+  color: var(--background-tertiary-color);
+}
+.card.transfer{
+  background-color: var(--background-secondary-color);
+  color: var(--background-tertiary-color);
+}
+.card.seguro{
+  background-color: var(--background-secondary-color);
+  color: var(--background-tertiary-color);
+}
+.icone{
+    margin-top: 30px;
+   width: 80px;
+  margin-bottom: 28px;
+}
+
+@media screen and (min-width: 768px){
+  .categorias-cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+}
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 420px;
+    height: 308px;
+  }
+  .card header h3 {
+    font-size: 48px;
+}
+@media screen and (min-width: 1440px) {
+  .card {
+    width: 588px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .categorias-cards {
+    width: 1250px;
+    margin: 0 auto;
+  }
+}
+}
