@@ -1,4 +1,4 @@
-header {
+.main-header {
   background-color: var(--background-tertiary-color);
   display: flex;
   flex-direction: row;
@@ -7,21 +7,25 @@ header {
   padding: 38px 48px;
   position: relative;
 }
+
 .logo {
   display: inline-block;
   width: 68px;
   height: 64px;
 }
-.img_mobile {
+
+.img-mobile {
   display: block;
 }
-.img_desktop {
+
+.img-desktop {
   display: none;
 }
-.menu-navigation {
+.navigation-menu {
   margin-top: 24px;
 }
-input[type="checkbox"]:checked ~ nav{
+
+input[type="checkbox"]:checked ~ nav {
   display: block;
   position: absolute;
   top: 100%;
@@ -29,62 +33,72 @@ input[type="checkbox"]:checked ~ nav{
   width: 100%;
   background-color: var(--background-tertiary-color);
 }
+
 nav {
   display: none;
 }
-.list_links {
+
+.list-links {
   list-style: none;
 }
-.list_links li {
-  margin: 16px 0;;
+
+.list-links li {
+  margin: 16px 0;
 }
-.list_links li a{
+.list-links li a {
   color: var(--text-secondary-color);
   text-decoration: none;
   font-weight: var(--menu-text-weight);
   font-size: 24px;
 }
+.list-links li a.active {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 768px) {
-  .menu-navigation{
+  .navigation-menu {
     margin-top: 0;
     width: 467px;
   }
-  .menu-navigation label {
-    display: none; 
+  .navigation-menu label {
+    display: none;
   }
-  .menu-navigation nav{
+
+  .navigation-menu nav {
     display: block;
   }
-  .menu-navigation ul{
+  .navigation-menu ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0;
   }
-  .menu-navigation ul li{
+  .navigation-menu li {
     margin: 0;
-  } 
+  }
 }
+
 @media screen and (min-width: 1024px) {
-  header {
+  .main-header {
     padding: 38px 120px;
   }
   .logo {
     width: 260px;
     height: 64px;
   }
-  .img_desktop{
+  .img-desktop {
     display: block;
   }
-  .img_mobile{
+  .img-mobile {
     display: none;
   }
-  .menu-navigation a:hover{
-    color: var(--button-primary-color);
+  .navigation-menu a:hover {
+    color: var(--primary-color);
   }
-} 
+}
+
 @media screen and (min-width: 1920px) {
-  header {
+  .main-header {
     padding: 38px 160px;
   }
 }
