@@ -1,72 +1,78 @@
 .hero .hero-img,
-.bottom-hero .hero-img{
-    height: 400px;
-    width: 100%;
+.bottom-hero .hero-img {
+  height: 400px;
+  width: 100%;
 }
-.hero .hero-img{
-    background-image: url(../img/hero_mobile.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.hero .hero-img {
+  background-image: url(../img/hero_mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.bottom-hero .hero-img{
-    background-image: url(../img/img_paisagem_footer_mobile.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.bottom-hero .hero-img {
+  background-image: url(../img/img_paisagem_footer_mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.hero h2{
-    padding: 88px 24px;
-    margin: 0px;
-    font-weight: var(--text-weight);
-    font-size: 20px;
-    text-align: center;
-    line-height: 1.5;
+.hero h2 {
+  padding: 88px 24px;
+  margin: 0px;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
 }
 @media screen and (min-width: 768px) {
-    .hero-img{
+  .hero-img {
     height: 620px;
     width: 100%;
     background-image: url(../img/hero_tablet.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    }
-    .bottom-hero .hero-img{
-        height: 400px;
+  }
+  .bottom-hero .hero-img {
+    height: 400px;
     background-image: url(../img/img_paisagem_footer_mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
-    }
-    .hero h2{
+  }
+  .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
-}
+  }
 }
 @media screen and (min-width: 1024px) {
-    .hero-img{
+  .hero-img {
     height: 620px;
     width: 100%;
     background-image: url(../img/hero_desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    }
-    .bottom-hero .hero-img{
-        height: 600px;
-    background-image: url(../img/img_paisagem_footer_desktop.png);
+  }
+  .bottom-hero .hero-img {
+    height: 600px;
+    background-image: url(../img/img-paisagem-footer-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    }
-    .hero h2{
+  }
+  .hero h2 {
     padding: 88px 120px;
-    }
+  }
 }
 @media screen and (min-width: 1920px) {
-    .hero-img{
+  .hero-img {
     height: 620px;
     width: 100%;
     background-image: url(../img/hero_desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    }
-    .hero h2{
+  }
+  .bottom-hero .hero-img {
+    height: 600px;
+    background-image: url(../img/img-paisagem-footer-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .hero h2 {
     padding: 88px 160px;
-    }
+  }
 }
